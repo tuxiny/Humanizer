@@ -1130,3 +1130,4 @@ If you encounter any bugs or have feature requests, please:
 ## Icon
 
 The icon was created by [Tyrone Rieschiek](https://twitter.com/Inkventive)
+This is TXY first contribution to an open source project.

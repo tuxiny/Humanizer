@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "src\Benchmarks\Benchmarks.csproj", "{C39BC9AC-FC87-465D-8C70-8A0E48FE333D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanizer", "src\Humanizer\Humanizer.csproj", "{25826851-2F49-E233-10FB-298DDA9DD636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanizer.Analyzers", "src\Humanizer.Analyzers\Humanizer.Analyzers.csproj", "{3D04AA6A-732C-1FEC-8D32-E621E03BDC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanizer.Analyzers.Tests", "tests\Humanizer.Analyzers.Tests\Humanizer.Analyzers.Tests.csproj", "{4F412E24-EFC0-B608-052D-6032BEB58AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Humanizer.Tests", "tests\Humanizer.Tests\Humanizer.Tests.csproj", "{787D69E5-95D7-2123-7011-84A35C6B179F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39BC9AC-FC87-465D-8C70-8A0E48FE333D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39BC9AC-FC87-465D-8C70-8A0E48FE333D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39BC9AC-FC87-465D-8C70-8A0E48FE333D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39BC9AC-FC87-465D-8C70-8A0E48FE333D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25826851-2F49-E233-10FB-298DDA9DD636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25826851-2F49-E233-10FB-298DDA9DD636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25826851-2F49-E233-10FB-298DDA9DD636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25826851-2F49-E233-10FB-298DDA9DD636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D04AA6A-732C-1FEC-8D32-E621E03BDC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D04AA6A-732C-1FEC-8D32-E621E03BDC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D04AA6A-732C-1FEC-8D32-E621E03BDC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D04AA6A-732C-1FEC-8D32-E621E03BDC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F412E24-EFC0-B608-052D-6032BEB58AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F412E24-EFC0-B608-052D-6032BEB58AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F412E24-EFC0-B608-052D-6032BEB58AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F412E24-EFC0-B608-052D-6032BEB58AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787D69E5-95D7-2123-7011-84A35C6B179F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787D69E5-95D7-2123-7011-84A35C6B179F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787D69E5-95D7-2123-7011-84A35C6B179F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787D69E5-95D7-2123-7011-84A35C6B179F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C39BC9AC-FC87-465D-8C70-8A0E48FE333D} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{25826851-2F49-E233-10FB-298DDA9DD636} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{3D04AA6A-732C-1FEC-8D32-E621E03BDC84} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{4F412E24-EFC0-B608-052D-6032BEB58AAD} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{787D69E5-95D7-2123-7011-84A35C6B179F} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C11E5F84-6E0F-4B70-AE17-219FB0A8BE71}
+	EndGlobalSection
+EndGlobal
